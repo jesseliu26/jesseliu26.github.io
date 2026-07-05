@@ -1,0 +1,13 @@
+{
+  "site": {
+    "name": "jesseliu",
+    "mark": "JL",
+    "avatarMark": "JL",
+    "subtitle": "Something for nothing。",
+    "title": "Talk is cheap,\nShow me the code.",
+    "githubUrl": "https://github.com/jesseliu26",
+    "email": "jesseliu26@gmail.com",
+    "avatar": "./assets/images/avatar/profile.png",
+    "deployment": "已上线"
+  }
+}

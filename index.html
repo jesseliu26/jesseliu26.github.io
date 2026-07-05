@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="jesseliu 的个人博客，记录技术、札记和个人介绍。"
+    />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
+    <title>jesseliu | 个人博客</title>
+    <link rel="stylesheet" href="./styles.css?v=20260531-profile-panel" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">跳到正文</a>
+
+    <header class="site-header">
+      <a class="brand" href="#/">
+        <span class="brand-mark">JL</span>
+        <span>
+          <strong id="brandName">jesseliu</strong>
+          <small id="brandSubtitle">Something for nothing。</small>
+        </span>
+      </a>
+
+      <div class="header-actions">
+        <button class="icon-button" id="themeToggle" type="button" aria-label="切换主题">
+          <span id="themeIcon" aria-hidden="true">暗</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="app-shell">
+      <aside class="profile-panel" aria-label="作者介绍">
+        <img id="avatarImage" class="avatar" alt="jesseliu 个人头像" />
+        <div class="profile-copy">
+          <h1 id="profileTitle">Talk is cheap,
+Show me the code.</h1>
+        </div>
+
+        <div class="profile-links">
+          <a id="githubLink" href="https://github.com/jesseliu26" target="_blank" rel="noreferrer">GitHub: https://github.com/jesseliu26</a>
+          <a id="emailLink" href="mailto:jesseliu26@gmail.com">Email: jesseliu26@gmail.com</a>
+        </div>
+
+        <dl class="site-stats">
+          <div>
+            <dt>文章</dt>
+            <dd id="postCount">0</dd>
+          </div>
+          <div>
+            <dt>标签</dt>
+            <dd id="tagCount">0</dd>
+          </div>
+          <div>
+            <dt>部署</dt>
+            <dd id="deploymentStatus">已上线</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <main class="content" id="content" tabindex="-1">
+        <div id="view"></div>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <span>由 HTML、CSS、JavaScript、Markdown、GitHub Pages、Just the Docs 主题和 JetBrains Mono 字体驱动。</span>
+      <a href="#/">返回首页</a>
+    </footer>
+
+    <script src="./app.js?v=20260531-profile-panel"></script>
+  </body>
+</html>
